@@ -12,8 +12,8 @@ const projects = [
     technologies: ["AI", "JavaScript", "OpenRouter", "HTML", "CSS"],
     type: "AI APPLICATION",
     image: "/projects/ai-searchbot.png",
-    github: "https://github.com/SpyEdith",
-    demo: "#",
+    github: "https://github.com/SpyEdith/searchbot",
+    demo: "https://searchbot-beryl.vercel.app/",
   },
   {
     number: "02",
@@ -46,7 +46,7 @@ const projects = [
     type: "WEB APPLICATION",
     image: "/projects/global-radio.png",
     github: "https://github.com/SpyEdith",
-    demo: "#",
+    demo: "https://global-groove-radio-5de577a9.base44.app/",
   },
 ];
 
