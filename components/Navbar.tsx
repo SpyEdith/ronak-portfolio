@@ -19,10 +19,8 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-white/10 bg-black/70 backdrop-blur-md">
       <div className="mx-auto max-w-6xl px-6">
-
-        {/* Main navbar */}
         <div className="flex items-center justify-between py-4">
-
+          
           {/* Logo */}
           <a
             href="#home"
@@ -32,7 +30,7 @@ export default function Navbar() {
             RONAK<span className="text-purple-400">.</span>
           </a>
 
-          {/* Desktop navigation */}
+          {/* Desktop Navigation */}
           <div className="hidden items-center gap-8 md:flex">
             {links.map((link) => (
               <a
@@ -54,7 +52,7 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Mobile menu button */}
+          {/* Mobile Menu Button */}
           <button
             type="button"
             onClick={() => setIsOpen(!isOpen)}
@@ -68,11 +66,10 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Mobile navigation */}
+        {/* Mobile Navigation */}
         {isOpen && (
           <div className="border-t border-white/10 py-5 md:hidden">
             <div className="flex flex-col gap-1">
-
               {links.map((link) => (
                 <a
                   key={link.name}
@@ -93,11 +90,9 @@ export default function Navbar() {
               >
                 Download Resume
               </a>
-
             </div>
           </div>
         )}
-
       </div>
     </nav>
   );
